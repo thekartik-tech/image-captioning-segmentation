@@ -45,12 +45,10 @@ This project demonstrates a deep learning pipeline that integrates both systems 
 
 ---
 
-##📷 Example Output
-Input: Image of a giraffe
-
-Caption: "an angolan giraffe"
-
-Mask: Binary mask highlighting the object
+📷 Example Output
+- Input: Image of a giraffe
+- Caption: "an angolan giraffe"
+- Mask: Binary mask highlighting the object
 
 
 
