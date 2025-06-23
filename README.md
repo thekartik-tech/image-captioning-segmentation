@@ -1,22 +1,49 @@
-# 🧠 Image Captioning + Segmentation using Streamlit
+# 🧠 Image Captioning and Segmentation (Internship Project)
 
-This project implements a lightweight pipeline for generating **image captions** and **segmentation masks** using deep learning. It includes a **Streamlit web app** to upload images and view predictions live.
+This is an internship project under **Zidio** that combines two powerful computer vision tasks:  
+📸 **Image Captioning** — generating textual descriptions of images  
+🖼️ **Image Segmentation** — identifying and labeling regions in an image
 
----
-
-## ✨ Features
-
-- 🔤 Caption generation with CNN encoder + LSTM decoder
-- 🖼️ Image segmentation using a custom Tiny U-Net
-- 📦 Streamlit interface for uploading images and seeing results
-- 🧪 Trained on a small custom dataset (COCO format)
+This project demonstrates a deep learning pipeline that integrates both systems and deploys them via a Streamlit web interface.
 
 ---
 
-## 🚀 How to Run
+## 🎯 Project Objectives
 
-### 1️⃣ Install requirements
+- Understand and implement deep learning models for image captioning and segmentation.
+- Perform semantic segmentation using U-Net (or similar).
+- Generate natural language captions using CNN + LSTM (or Transformer-based).
+- Integrate both models into a unified Streamlit app.
+- Train and evaluate models using datasets like **MS COCO** or **Pascal VOC**.
 
-```bash
-pip install -r requirements.txt
+---
+
+## 🔧 Tech Stack & Tools
+
+- `Python`
+- `PyTorch` / `TensorFlow`
+- `OpenCV` for image preprocessing
+- `NLTK` / `spaCy` for language preprocessing
+- `Streamlit` for deployment
+- `Jupyter Notebook` for experimentation
+
+---
+
+## 📦 Dataset
+
+- Trained on a **small subset of the MS COCO dataset** for both captioning and segmentation.
+- Includes **dummy data** for segmentation training with synthetic masks.
+- Supports future use of Pascal VOC or full COCO datasets.
+
+---
+
+## 📁 Key Components
+
+- `CNNEncoder` + `LSTMDecoder` for image captioning
+- `TinyUNet` for image segmentation
+- Streamlit interface for image upload, caption generation, and mask visualization
+- Script-based training, inference, and integration modules
+
+---
+
 
