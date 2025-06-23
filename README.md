@@ -1,6 +1,5 @@
-# 🧠 Image Captioning and Segmentation (Internship Project)
-
-This is an internship project under **Zidio** that combines two powerful computer vision tasks:  
+# 🧠 Image Captioning and Segmentation 
+ 
 📸 **Image Captioning** — generating textual descriptions of images  
 🖼️ **Image Segmentation** — identifying and labeling regions in an image
 
